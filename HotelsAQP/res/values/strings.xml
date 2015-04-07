@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HotelsAQP</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_busqueda">Hoteles</string>
+    <string name="title_activity_tierra_viva">TierraViva</string>
+    <string name="title_activity_buscar_hotel">Buscar_hotel</string>
+    
+    <string-array name="hoteles">
+    	<item>hotel1</item>
+    	<item>hotel2</item>
+    	<item>hotel3</item>
+    	<item>hotel4</item>
+    	<item>hotel5</item>
+    	<item>hotel6</item>
+    	<item>hotel7</item>
+    	<item>hotel8</item>
+    </string-array>
+    
+
+</resources>

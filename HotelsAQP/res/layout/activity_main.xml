@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hotelsaqp.MainActivity"
+    android:background="@drawable/fondo" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true" />
+    
+    <ImageView
+        android:id="@+id/fondo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/arequipa" />
+
+    <Button
+        android:id="@+id/Hoteles"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/Buscar"
+        android:layout_below="@+id/Buscar"
+        android:layout_marginTop="25dp"
+        android:text="HOTELES"
+        android:onClick="Onclickhoteles" />
+
+    <Button
+        android:id="@+id/Conf"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/Hoteles"
+        android:layout_below="@+id/Hoteles"
+        android:layout_marginTop="26dp"
+        android:text="AJUSTES" />
+
+    <Button
+        android:id="@+id/Buscar"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/fondo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="BUSCAR HOTELES"
+        android:onClick="Onclickbuscar" />
+
+</RelativeLayout>
